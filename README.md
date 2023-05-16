@@ -1,2 +1,10 @@
 # camera_service
-Test task about streaming image data from webcamera
+### Задача:
+ - Создание GRPC сервиса для передачи телеметрических данных и потока изображений с любой веб камеры к клиентскому приложению.
+ - Сжатие изображения
+
+### Примечание:
+- настоящая вебкамера заменена на синтетическую генерацию изображения.
+
+### Диаграмма:
+![telemetry_service](https://github.com/D3FiX4M/camera_service/assets/48544955/2c549e45-ca1a-43b2-b38e-98a3aaca5c57)

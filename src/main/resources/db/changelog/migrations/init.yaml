@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2023-05-16-0000-database-init
+      author: D3FiX4M
+      changes:
+        - createTable:
+            tableName: camera_image
+            columns:
+              - column:
+                 name: id
+                 type: uuid
+                 constraints:
+                   primaryKey: true
+                   unique: true
+                   nullable: false
+              - column:
+                  name: image
+                  type: BINARY
+                  constraints:
+                    nullable: false
+              - column:
+                  name: height
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: width
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: size
+                  type: bigint
+                  constraints:
+                    nullable: false

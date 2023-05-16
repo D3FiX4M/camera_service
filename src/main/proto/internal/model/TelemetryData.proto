@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "ru.d3fix4m.camera_service";
+option java_multiple_files = true;
+
+message TelemetryData{
+  int64 height = 1;
+  int64 width = 2;
+  int64 size = 3;
+}

@@ -1,0 +1,2 @@
+databaseChangeLog:
+  - include: { file: db/changelog/migrations/init.yaml }
